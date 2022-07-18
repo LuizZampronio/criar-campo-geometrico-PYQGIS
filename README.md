@@ -7,7 +7,7 @@ Como criar um campo com valores de área de polígono ou comprimento de linhas n
 2 - Na linha 21 do script, se desejar calcular o comprimento de uma camada tipo linha, altere o método .area() para .length()
 
 3 - Na linha 30 do script:
-- Como primeiro parâmetro da função, coloque entre aspas simples o nome do campo(lembrando de respeitar as limitações de arquivos .shp, sem espações, caracteres especiais e no máximo 10 caracteres;
+- Como primeiro parâmetro da função, coloque entre aspas simples o nome do campo(lembrando de respeitar as limitações de arquivos .shp, sem espaços, caracteres especiais e no máximo 10 caracteres;
 - Como segundo parâmetro da função, coloque o tipo do campo, QVariant.Double para números decimais, QVariant.Integer para inteiros e QVariant.String para textos;
 - O terceiro e quarto parâmetro da função dizem respeito, respectivamente, ao comprimento e precisão do campo.
 
